@@ -1,5 +1,7 @@
 ### Alma Linux 9 + GNOME (Container)
 
+![](IMG.png)
+
 Alma Linux 9 + GUI(GNOME) のDockerコンテナです。
 RDP接続でGUIにアクセスできます。
 最小限のパッケージしかインストールしてないのでどこまでできるかは分かりませんが、とりあえず表示できました。
@@ -27,4 +29,6 @@ docker exec al9gnome systemctl start xrdp
 4. Microsoft Remote Desktop で接続 
 ```
 rdp://localhost:13380
+ユーザー: abc
+パスワード: 1234
 ```
